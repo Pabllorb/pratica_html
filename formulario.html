@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça seu pedido</title>
+</head>
+<body>
+    <h1>FAÇA SEU PEDIDO</h1>
+    <form method="get" action="teste.jsp"><!--Cria formulário com metodo 'get' e action que envia as
+    informações do para outa página (teste.jsp)-->
+        Nome: <input type="text" name="nome"><!--input (entrada) seguido do type=text(caixa para digitação)
+         e o nome= do type (input para receber o nome)-->
+        <br>
+        <p></p>
+        Email: <input type="email" name="email">
+        <br>
+        <p></p>
+        <!--Cria inputs do type=radio(selecionáveis) para o usuário selecionar o tamanho(nome=) com o valor= -->
+        Tamanho: <input type="radio" name="tamanho" value="P"> Pequena
+                <input type="radio" name="tamanho" value="M"> Média
+                <input type="radio" name="tamanho" value="G" checked> Grande
+        <br>
+        <p></p>
+        <!--Caixa de opções-->
+        Sabor: <select name="sabor">
+            <option>Calabresa</option>
+            <option>Frango com Catupiri</option>
+            <option>Frango com Bacon</option>
+            <option>Marguerita</option>
+        </select>
+        <br>
+        <p></p>
+        Opcionais: 
+            <input type="checkbox" nome="Borda" value="sim"> Sem Borda
+            <input type="checkbox" nome="Queijo" value="sim"> Queijo Extra
+            <input type="checkbox" nome="Bacon" value="sim"> Bacon Extra
+            <br>
+            <p></p>
+            Data de Entrega: <input type="date" name="Data da Entrega">
+            <br>
+            <p></p>
+            <!--Caixa de texto maior-->
+            Observações:<br>
+            <textarea nome="msg" rows="5" cols="40"></textarea>
+            <br>
+            <p></p>
+            <input type="submit">
+        </form>
+</body>
+</html>
