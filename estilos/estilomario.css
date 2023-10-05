@@ -1,0 +1,34 @@
+.img{
+        background: url(/imagens/supermarioclassico.jpg);
+        width: 1905px;
+        height: 200px;
+        display: block;
+        background-size: contain;
+}
+.img:hover{
+        background-position: 0px 15px;
+}
+h1{
+        font: icon;background-color: red; 
+        color: white; 
+        font-size:40px; 
+        text-align: center;
+}
+h2{
+        font: icon;
+        background-color: red; 
+        color: white; 
+        font-size:25px;
+}
+p{
+        font: icon; 
+        background-color: bisque;
+        text-align: center;
+}
+ul{
+        font: icon; 
+        background-color: bisque;
+}
+a{
+        color: green;
+}
